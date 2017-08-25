@@ -8,3 +8,7 @@
 #index-center {
     text-align: center;
 }
+
+html {
+    overflow-y: hidden;
+}
