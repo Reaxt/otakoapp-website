@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
   <meta charset="UTF-8">
   <!-- Begin Jekyll SEO tag v2.3.0 -->
   <title>Otako - Scalable chat app</title>
@@ -19,33 +20,73 @@
   <title>OtakoApp!</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
   <link rel="stylesheet" href="css/otako-theme.css">
 </head>
 <!-- Use <br> to get rid of that ugly space. -->
 <body>
-  <section class="hero is-medium is-primary is-large">
+  <section class="hero is-medium is-primary is-fullheight">
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
           OtakoApp
         </h1>
         <h2 class="subtitle">
-          Welcome to the official Otakoapp website! 
+          Welcome to the official Otakoapp website!
         </h2>
         <h2 class="subtitle">
           Otako is the future of chatting over the internet. An integrated environment for everyone to play, talk, share, and have a fun time.
           <br>
           Otako is currently being developed and handled by <a href="https://kibii.moe/">Kibii</a>
         </h2>
-        <h1 class="button is-info is-large is-outlined">
-          What's it all about?
-        </h1>
-        <h2 class="subtitle">
-          Otakoapp is a Discord-like app made using <a href=https://electron.atom.io/>Electron</a> made by a team of 5 people (in the Otakoapp team).
-        </h2>
-      </div>
+		<div class="field has-addons">
+        <p class="control">
+        <a id="about" class="button is-info is-large is-outlined">
+          About
+        </a>
+      </p>
+      <p class="control">
+        <a id="contact" class="button is-info is-large is-outlined">
+          Contact us
+        </a>
+      </p>
+		</div>
+    <div id="text" class="container">
+     <h1 class=title>
+       About us!
+     </h1>
+     <h2>
+       We are a small team of about 7 people. (and counting)
+       <br>
+       This project started out in a group chat in Discord with only 3 people in it.
+       <br>
+       The project became dead until we started it again but now with 7 people on the team!
+     </h2>
+     </div>
+     <div id="contactinfo" class="container">
+       <a class="button">
+   <span class="icon">
+     <i class="fa fa-github"></i>
+   </span>
+
+ </a>
+ <a class="button is-primary">
+    <span class="icon">
+      <i class="fa fa-twitter"></i>
+    </span>
+  </a>
+  <a class="button">
+<span class="icon">
+<i class="fa fa-envelope"></i>
+</span>
+
+</a>
+     </div>
     </div>
   </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
 
 </body>
 
