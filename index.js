@@ -1,4 +1,5 @@
 //JS written by Reaxt.
+//Uses Jquery and JqueryUI
 document.addEventListener('DOMContentLoaded', function () {
   var $about =  document.getElementById("about")
   var $contact = document.getElementById("contact")
