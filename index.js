@@ -1,3 +1,5 @@
+//JS written by Reaxt.
+//Uses Jquery and JqueryUI
 document.addEventListener('DOMContentLoaded', function () {
   var $about =  document.getElementById("about")
   var $contact = document.getElementById("contact")
@@ -16,6 +18,3 @@ document.addEventListener('DOMContentLoaded', function () {
     if($(text).css("display") == "block") {$(text).toggle("fold")}
     $(contactinfo).toggle("fold")
   })
-function myFunction() {
-
-}})
