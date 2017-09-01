@@ -18,6 +18,3 @@ document.addEventListener('DOMContentLoaded', function () {
     if($(text).css("display") == "block") {$(text).toggle("fold")}
     $(contactinfo).toggle("fold")
   })
-function myFunction() {
-
-}})
