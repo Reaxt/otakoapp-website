@@ -17,4 +17,4 @@ document.addEventListener('DOMContentLoaded', function () {
   $contact.addEventListener('click', function() {
     if($(text).css("display") == "block") {$(text).toggle("fold")}
     $(contactinfo).toggle("fold")
-  })
+  })})
