@@ -1,3 +1,4 @@
+//JS written by Reaxt.
 document.addEventListener('DOMContentLoaded', function () {
   var $about =  document.getElementById("about")
   var $contact = document.getElementById("contact")
