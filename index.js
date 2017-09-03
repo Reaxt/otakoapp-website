@@ -1,4 +1,4 @@
-//JS written by Reaxt.
+//Made by the KibiiTV team
 //Uses Jquery and JqueryUI
 document.addEventListener('DOMContentLoaded', function () {
   var $about =  document.getElementById("about")
