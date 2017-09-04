@@ -1,3 +1,5 @@
+//RIP BIN
+
 //JS by KibiiTV lol stop looking at the source looser
 //Uses Jquery and JqueryUI
 document.addEventListener('DOMContentLoaded', function () {
