@@ -1,96 +1,60 @@
-<!--RIP BIN-->
-<!--Css is bulma css, uses jquery and jqueryui-->
-<!DOCTYPE html>
 <html>
 
 <head>
+<style>
+.o {font-family: 'Roboto', sans-serif;}
 
-  <meta charset="UTF-8">
-  <!-- Begin Jekyll SEO tag v2.3.0 -->
-  <title>Otako - Scalable chat app</title>
-  <meta property="og:title" content="Otako - Chat of the future">
-  <meta property="og:locale" content="en_US">
-  <meta name="description" content="Otako is the future of chatting over the internet. An integrated environment for everyone to play, talk, share, and have a fun time. Otako is currently developed by Kibii - https://kibii.moe">
-  <meta property="og:description" content="Otako is the future of chatting over the internet. An integrated environment for everyone to play, talk, share, and have a fun time. Otako is currently developed by Kibii - https://kibii.moe">
-  <link rel="canonical" href="http://otakoapp.com/">
-  <meta property="og:url" content="http://otakoapp.com/">
-  <meta property="og:site_name" content="Otako">
-  <!-- End Jekyll SEO tag -->
-  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Moon_Letter_O.svg/2000px-Moon_Letter_O.svg.png">
-  <!-- credit to Wikipedia lol -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OtakoApp</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-  <link rel="stylesheet" href="app.css">
+.show {display: block;}
+.hide {display: none !important;}
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 </head>
-<!-- Use <br> to get rid of that ugly space. -->
+<body >
 
-<body>
-  <section class="hero is-medium is-primary is-fullheight">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">
-          OtakoApp
-        </h1>
-        <h2 class="subtitle">
-          Welcome to the official Otakoapp website!
-        </h2>
-        <h2 class="subtitle">
-          Otako is the future of chatting over the internet. An integrated environment for everyone to play, talk, share, and have
-          a fun time.
-          <br> Otako is currently being developed and handled by
-          <a href="https://kibii.moe/">Kibii</a>
-        </h2>
-        <div class="field has-addons">
-          <p class="control">
-            <a id="about" class="button is-info is-large is-outlined">
-              About
-            </a>
-          </p>
-          <p class="control">
-            <a id="contact" class="button is-info is-large is-outlined">
-              Contact us
-            </a>
-          </p>
-        </div>
-        <div id="text" class="container">
-          <h1 class="title">
-            About us!
-          </h1>
-          <h2 class="subtitle">
-            We are a small team of about 7 people. (and counting)
-            <br> This project started out in a group chat in Discord with only 3 people in it.
-            <br> The project became dead until we started it again but now with 7 people on the team!
-          </h2>
-        </div>
-        <div id="contactinfo" class="container">
-          <a href="https://github.com/KibiiTV" class="button is-primary">
-            <span class="icon">
-              <i class="fa fa-github"></i>
-            </span>
+<div class="w3-container w3-blue w3-center" style="padding:128px 16px">
+<h1 class="o w3-jumbo">Otakoapp</h1>
+<h2>Welcome to the future of text chatting</h2>
+<script>
+$(document).ready(function(){
+    $("#button1").click(function(){
+        $("#div1").fadeToggle();
+        $("#div2").fadeToggle("slow");
+        $("#div3").fadeToggle(3000);
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#button1").click(function(){
+        $("#div1).slideToggle("slow");
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+        $("div#div1").hide();
+});
+</script>
+<span>
+<a>
+  <button class="w3-button w3-purple w3-padding-large w3-large w3-margin-top" id="button1">About</button></a>
+<a>
+  <button class="w3-button w3-purple w3-padding-large w3-large w3-margin-top">Contact Us</button></a>
+</span>
+</div>
+<div class="w3-container w3-center w3-green" style="padding:128px 16px" id="div1">
+<h1>We are otako</h1>
 
-          </a>
-          <a href="https://twitter.com/kibiitv" class="button is-primary">
-            <span class="icon">
-              <i class="fa fa-twitter"></i>
-            </span>
-          </a>
-          <a href="mailto:admin@otakoapp.com" class="button is-primary">
-            <span class="icon">
-              <i class="fa fa-envelope"></i>
-            </span>
+</div> 
+<div class="w3-container w3-center w3-white" style="padding:128px 8px">
+<h1>          Otako is the future of chatting over the internet. An integrated environment for everyone to play, talk, share, and have
+          a fun time.</h1>
 
-          </a>
-        </div>
-      </div>
-  </section>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
-  <script src="./index.js"></script>
-
+</div>
 </body>
+
 
 </html>
